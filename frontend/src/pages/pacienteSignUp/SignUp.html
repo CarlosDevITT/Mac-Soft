@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO PACIENTE</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <main>
+        <section class="image">
+            <img src="img/usuarioCad.png" alt="">
+            <p>CADASTRO</p>
+        </section>
+        <section class="formulario">
+            <form id="cadastroForm" action="" method="post" autocomplete="on">
+                <input type="text" name="nome" id="inome" placeholder="NOME COMPLETO" minlength="10" maxlength="50" required>
+                <input type="email" name="email" id="iemail" placeholder="E-MAIL" required>
+                <input type="password" name="senha" id="isenha" placeholder="SENHA" minlength="8" maxlength="25" required>
+                <input class="ultimo" type="text" name="cpf" id="icpf" placeholder="CPF" required>
+                <button type="submit" id="criarConta">CRIAR CONTA</button>
+            </form>
+            <div class="sign-in">
+                <a href="../pacienteSignIn/SignIn.html">Sign-in</a>
+            </div>
+        </section>
+    </main>
+    <script src="signup.js"></script>
+</body>
+</html>

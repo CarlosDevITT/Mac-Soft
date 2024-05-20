@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="home.css">
+    <title>GUARDIÃO</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>FE</span>ED</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="../HOME/home.html"><i class='bx bxs-dashboard'></i>FEED</a></li>
+            <li><a href="../HELP/help.html"><i class='bx bx-store-alt'></i>CONSULTORIOS</a></li>
+            <li><a href="../CHAT/chat.html"><i class='bx bx-message-square-dots'></i>CHAT</a></li>
+            <li><a href="../PERFIL/perfil.htmlzzzzzzzz"><i class='bx bx-group'></i>PERFIL</a></li>
+            <li><a href="../SETTINGS/settings.html"><i class='bx bx-cog'></i>Settings</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="../Usuarios/User.html" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    SAIR
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>      
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="img/home.svg">
+            </a>
+        </nav>
+        <!-- End of Navbar -->
+        <h1>Bem-vindo!</h1>
+        <div id="welcomeMessage"></div>
+          <!-- FEED CONTEUDO -->
+        <main>
+            <div class="feed">
+                <div class="card">
+                    <img src="img/feed.jpg" alt="Educational Content 1">
+                    <div class="card-content">
+                        <h2>O ASPECTO QUÍMICO DA DEPRESSÃO</h2>
+                        <p>A medicina já comprovou: a depressão é provocada por um desequilíbrio químico no cérebro. Venha entender mais.</p>
+                        <a href="https://www.medley.com.br/saude-e-bem-estar/saude-mental/artigos/depressao-aspecto-quimico" class="read-more">Venha entender mais !</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/feed2.png" alt="Educational Content 2">
+                    <div class="card-content">
+                        <h2>Como você está?
+                            Como está sua saúde mental?
+                         </h2>
+                        <p>Já parou para pensar no assunto? Alguma vez refletiu se os seus pensamentos, ideias e sentimentos estão em harmonia? Sabe a diferença entre saúde mental e doença ou transtorno mental?</p>
+
+                        <p>Confira no  site : Saúde mental einstein</p>
+                        <a href="https://www.einstein.br/saudemental" class="read-more">veja mais !</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/feed3.jpg" alt="Educational Content 3">
+                        <div class="card-content">
+                            <h2>Atenção à Saúde Mental no Amazonas, Brasil: um olhar sobre os Centros
+                                de Atenção Psicossocial
+                             </h2>
+                            <p>Este artigo descreve a organização e as atividades terapêuticas individuais, grupais, familiares e
+                                comunitárias desenvolvidas em Centros de Atenção Psicossocial (CAPS) do Estado do Amazonas. É uma
+                                Pesquisa qualitativa, realizada no período de janeiro de 2006 a dezembro de 2007. Foram entrevistados gestores,
+                                profissionais de saúde e usuários dos CAPS. A técnica de pesquisa utilizada foi à análise de Conteúdo de Bardin.
+                                Os resultados demonstram que os CAPS na rede de atenção à saúde mental no Amazonas têm características do
+                                tipo II e III, com equipe técnica mínima. No estudo foram narradas como fragilidades a escassez de recursos
+                                financeiros, materiais e humanos. Os achados refletem a fragilidade da organização da rede e que as atividades
+                                terapêuticas têm se configurado como um lugar de convivência e eixo articulador de parcerias entre os CAPS e
+                                os outros atores sociais da comunidade</p>
+    
+                            <p>LEIA O ARTIGO:</p>
+                            <a href="file:///home/carlosd/Downloads/sarabessa,+artigo2.pdf" class="read-more">veja mais !</a>
+                        </div>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+        </main>
+        
+
+    </div>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
